@@ -57,9 +57,7 @@ docker build -t nome_da_imagem .
 
 5. Execute o contêiner Docker como administrador, mapeando a porta 5000 para o host e configurando um volume para persistir os dados do banco de dados:
 ```
-docker run -p 5000:5000 -v $(pwd):/app nome_da_imagem
-
-docker run -p 5000:5000 -v C:\seu-diretorio:/app backend
+docker run -p 5000:5000 nome-da-imagem
 ```
 
 Agora, sua aplicação Flask deve estar em execução no contêiner Docker e acessível em http://127.0.0.1:5000 em seu navegador. Os dados do banco de dados SQLite serão persistentes e não serão perdidos entre as execuções do contêiner.
