@@ -69,3 +69,5 @@ Lembre-se de que você pode personalizar o nome da imagem Docker (nome_da_imagem
 Para encerrar a execução do contêiner, você pode pressionar Ctrl+C no terminal onde o contêiner está sendo executado.
 
 Certifique-se de substituir `seu-usuario/seu-repositorio` pelo URL real do seu repositório GitHub e fazer quaisquer outras personalizações necessárias para refletir a estrutura e configuração do seu projeto.
+
+Componente do frontend: https://github.com/gyomonteiro/MVP_PUCRJ_SPRINT_II_FRONT_COMPONENT_A-B.git
